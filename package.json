@@ -1,0 +1,19 @@
+{
+  "name": "myyoutube-clone",
+  "version": "1.0.0",
+  "description": "a backend project ",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [
+    "javascript",
+    "backend"
+  ],
+  "author": "Sheel Ganvir",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.2"
+  }
+}
