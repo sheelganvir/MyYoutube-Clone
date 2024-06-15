@@ -75,3 +75,7 @@ const registerUser = asyncHandler(async(req, res) => {
 });
 
 export {registerUser}
+
+/*
+This is a user.controller.js file
+*/
