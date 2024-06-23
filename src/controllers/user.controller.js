@@ -170,12 +170,15 @@ const logoutUser = asyncHandler(async(req,res) => {
 
 })
 
-const refreshAccessToken = 
+const refreshAccessToken = asyncHandler(async(req,res) => {
+
+})
 
 export {
     registerUser,
     loginUser,
-    logoutUser
+    logoutUser,
+    refreshAccessToken
 }
 
 /*
